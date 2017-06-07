@@ -3,6 +3,8 @@ var express = require('express');
 var bparser = require('body-parser')
 var app = express();
 
+//something something darkside
+
 var pool = mysql.createPool({
 	connectionLimit: 10,
 	host: 'localhost',
