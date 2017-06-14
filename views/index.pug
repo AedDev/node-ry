@@ -40,4 +40,6 @@ html
 						td= item.lastname
 						td= item.street
 						td= item.number
-						td #
+						td
+							a(class='btn btn-danger' href='/delete?id='+item.id) Remove
+							a(class='btn btn-warning' href='/edit?id='+item.id) Edit
